@@ -78,9 +78,18 @@ ul {
 }
 
 .container {
-  max-width: 1200px;
+  /* max-width: 1200px;
   margin: auto;
-  padding: 0 15px;
+  padding: 0 15px; */
+  /* width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px; */
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .flex-container {
   display: flex;
@@ -122,6 +131,7 @@ ul {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.1923;
+  letter-spacing: 0.03em;
   color: inherit;
 }
 
@@ -136,6 +146,7 @@ ul {
   color: var(--color-text-dark);
   padding: 32px 0 32px 0;
   display: flex;
+  letter-spacing: 0.02em;
   align-items: center;
 }
 
@@ -211,6 +222,7 @@ ul {
   color: var(--color-text-alt);
   text-align: center;
   font-weight: 900;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -223,6 +235,7 @@ ul {
   line-height: 1.875;
   font-weight: bold;
   cursor: pointer;
+  letter-spacing: 0.06em;
   padding: 10px 32px 10px 32px;
 }
 
@@ -232,6 +245,7 @@ ul {
   text-align: center;
   margin-bottom: 50px;
   margin-top: 0;
+  letter-spacing: 0.03em;
 }
 
 .occupation {
@@ -243,12 +257,14 @@ ul {
   margin-bottom: 10px;
   font-size: 14px;
   line-height: 1.1428;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .work_description {
   font-size: 14px;
   line-height: 1.714;
+  letter-spacing: 0.03em;
   color: var(--color-text-light);
 }
 
@@ -281,12 +297,14 @@ ul {
   line-height: 1.1875;
   font-weight: 500;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .team-position {
   line-height: 1.1875;
   color: var(--color-text-light);
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .social-icons {
@@ -335,6 +353,7 @@ ul {
   line-height: 1.625;
   cursor: pointer;
   border: 0;
+  letter-spacing: 0.03em;
 }
 .filter-button:hover,
 .filter-button:focus,
@@ -381,6 +400,7 @@ ul {
   margin: 20px 24px 4px 24px;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .portfolio-link {
@@ -393,6 +413,7 @@ ul {
   margin: 0 24px 20px 24px;
   line-height: 1.875;
   color: var(--color-text-light);
+  letter-spacing: 0.03em;
 }
 
 .portfolio-card-list {
@@ -442,6 +463,7 @@ ul {
   margin-top: 9px;
   color: var(--color-text-alt-transparent);
   display: inline-block;
+  letter-spacing: 0.03em;
 }
 .address_link:hover,
 .address_link:focus {
