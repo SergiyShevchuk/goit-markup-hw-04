@@ -1,49 +1,3 @@
-/* @font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Bold.woff2") format("woff2"),
-    url("../fonts/Roboto-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular.woff2") format("woff2"),
-    url("../fonts/Roboto-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url("../fonts/Raleway-Bold.woff2") format("woff2"),
-    url("../fonts/Raleway-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Medium.woff2") format("woff2"),
-    url("../fonts/Roboto-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Black.woff2") format("woff2"),
-    url("../fonts/Roboto-Black.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-} */
-
-/* @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"); */
 :root {
   --color-highlight: #2196f3;
   --color-text-alt: #ffffff;
@@ -78,13 +32,6 @@ ul {
 }
 
 .container {
-  /* max-width: 1200px;
-  margin: auto;
-  padding: 0 15px; */
-  /* width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px; */
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -164,17 +111,20 @@ ul {
   margin-right: 50px;
 }
 .section-dark {
+  max-width: 1600px;
+  margin: 0 auto;
   flex-direction: column;
   display: flex;
   height: 600px;
   background: var(--color-background-dark);
   align-items: center;
   justify-content: center;
-}
-
-.section-dark {
-  /* background: url("../img/header-img.png") no-repeat center; */
-  background-image: url("../img/header-img.png");
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../img/header-img.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -330,10 +280,6 @@ ul {
   fill: var(--color-text-alt);
 }
 
-/* .social-icons-svg {
-  fill: var(--color-background-light);
-} */
-
 .social-icons-link:hover,
 .social-icons-link:focus {
   background-color: var(--color-highlight);
@@ -342,7 +288,7 @@ ul {
 .social-icons-svg {
   width: 20px;
   height: 20px;
-  fill: var(--color-text-light);
+  fill: var(--color-icon);
 }
 
 .filter-button {
@@ -449,8 +395,6 @@ ul {
 }
 
 .icon-logo {
-  width: 106px;
-  height: 60px;
   fill: var(--color-icon);
 }
 
