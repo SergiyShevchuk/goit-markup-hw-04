@@ -80,6 +80,8 @@ ul {
   line-height: 1.1923;
   letter-spacing: 0.03em;
   color: inherit;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo_blue {
